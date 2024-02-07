@@ -1622,8 +1622,6 @@ p {
   padding-top: 50px;
 }
 
-/*aaynaclinic*/
-
 .logo img {
   height: 120px;
 }
@@ -1812,7 +1810,6 @@ p {
 #feat-area {
   padding: 45px 0 45px;
   background-color: #fff8f1;
-  /* background-image: url("../images/aayna-home-bg.webp"); */
   background-repeat: no-repeat;
   background-size: cover;
 }

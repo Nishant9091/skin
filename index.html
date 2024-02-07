@@ -27,12 +27,14 @@
     <!--responsive css-->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!-- <link rel="stylesheet" href="assets/css/grt-youtube-popup.css"> -->
-    <script src="
-    https://cdn.jsdelivr.net/npm/icofont@1.0.0/main.min.js
-    "></script>
-    <link href="
-    https://cdn.jsdelivr.net/npm/icofont@1.0.0/dist/icofont.min.css
-    " rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/icofont@1.0.0/main.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/icofont@1.0.0/dist/icofont.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -43,8 +45,6 @@
 
             <div class="header-cont-info1 mobileview23">
                 <ul>
-                    <!-- <li><a href="tel:07042297304"> Mehrauli :7042297304</a></li> -->
-                    <!-- <li><a href="tel:09870396667"> Khan Market : 9870396667</a></li> -->
                     <li><a href="tel:08575006060"> Pitampura : 9773811194</a></li>
                     <li><a href="tel:09810927946"> Gurugram : 9773811194</a></li>
                 </ul>
@@ -61,8 +61,6 @@
                     <div class="col-md-10">
                         <div class="header-cont-info">
                             <ul>
-                                <!-- <li><a href="tel:07042297304"> Mehrauli :7042297304</a></li> -->
-                                <!-- <li><a href="tel:09870396667"> Khan Market : 9870396667</a></li> -->
                                 <li class="mt-3"><a href="tel:08575006060"> Pitampura : <br> 9773811194</a></li>
                                 <li class="mt-3"><a href="tel:09810927946"> Gurugram : <br> 9773811194</a></li>
                             </ul>
@@ -75,8 +73,6 @@
         <!--end mainmenu-->
     </header>
     <!--end header-->
-
-
 
     <!--start hero area-->
     <section id="hero-area" data-scroll-index="0">
@@ -93,16 +89,10 @@
                         <div class="d-table-cell align-middle">
                             <div class="ban_form">
                                 <h3>Consult Top Skin Specialist Doctors in India</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
+                                <form>
                                     <input type="text" name="name" placeholder="Name" required="">
 
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
+                                    <input type="tel" name="phone" placeholder="Phone Number" required="">
                                     <select id="location" name="location">
                                         <option value="location">Select Location</option>
                                         <option value="mehrauli">Mehrauli, New Delhi</option>
@@ -112,13 +102,7 @@
 
                                     </select>
 
-                                    <!--Captch Start-->
-                                    <input name="cptcha_str" type="text" id="cptcha_str_1" style="display:none;">
-                                    <canvas class='canvas' id="canvas_1"></canvas>
-                                    <h6>Type The Code:</h6>
-                                    <input name="captchacode" id="code_1" class="form-control">
-                                    <button type="submit" id="valid_1" name="submit" value="Send">Request a
-                                        Callback</button>
+                                    <button type="submit" id="valid_1" name="submit" value="Send">Submit</button>
                                     <!--Captch End-->
 
 
@@ -141,7 +125,7 @@
                 <div class="col-md-2 mt-3">
                     <div class="servicesec1" data-toggle="modal" data-target="#exampleModal">
                         <div class="services1img">
-                            <img src="assets/images/Anti-Ageing.webp" class="img-fluid">
+                            <img src="assets/images/service/Anti-Ageing.webp" class="img-fluid">
                         </div>
                         <h6>Anti Ageing Treatments</h6>
                     </div>
@@ -149,7 +133,7 @@
                 <div class="col-md-2 mt-3">
                     <div class="servicesec1" data-toggle="modal" data-target="#examplelaserhairreduction">
                         <div class="services1img">
-                            <img src="assets/images/Laser-HairReduction-banner.webp" class="img-fluid">
+                            <img src="assets/images/service/Laser-HairReduction-banner.webp" class="img-fluid">
                         </div>
                         <h6>Laser Hair Reduction</h6>
                     </div>
@@ -157,26 +141,18 @@
                 <div class="col-md-2 mt-3">
                     <div class="servicesec1" data-toggle="modal" data-target="#examplesemimakeup">
                         <div class="services1img">
-                            <img src="assets/images/semi-permanent-makeup.webp" class="img-fluid">
+                            <img src="assets/images/service/semi-permanent-makeup.webp" class="img-fluid">
                         </div>
                         <h6>Medi Facials</h6>
                     </div>
                 </div>
 
-                <!-- <div class="col-md-2 mt-3">
-                    <div class="servicesec1" data-toggle="modal" data-target="#exampleweightloss">
-                        <div class="services1img">
-                            <img src="assets/images/weightlossnew.webp" class="img-fluid">
-                        </div>
-                        <h6>Weight Loss</h6>
-                    </div>
-                </div> -->
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-2 mt-3">
                     <div class="servicesec1" data-toggle="modal" data-target="#examplehairloss">
                         <div class="services1img">
-                            <img src="assets/images/Hair-loss.webp" class="img-fluid">
+                            <img src="assets/images/service/Hair-loss.webp" class="img-fluid">
                         </div>
                         <h6>Hair Loss/ Hair thinning</h6>
                     </div>
@@ -184,7 +160,7 @@
                 <div class="col-md-2 mt-3">
                     <div class="servicesec1" data-toggle="modal" data-target="#exampleHyperpigmentation">
                         <div class="services1img">
-                            <img src="assets/images/Hyperpigmentation.webp" class="img-fluid">
+                            <img src="assets/images/service/Hyperpigmentation.webp" class="img-fluid">
                         </div>
                         <h6>Hyperpigmentation</h6>
                     </div>
@@ -192,7 +168,7 @@
                 <div class="col-md-2 mt-3">
                     <div class="servicesec1" data-toggle="modal" data-target="#exampleacnescar">
                         <div class="services1img">
-                            <img src="assets/images/acnescar.webp" class="img-fluid">
+                            <img src="assets/images/service/acnescar.webp" class="img-fluid">
                         </div>
                         <h6>Acne & Acne Scar</h6>
                     </div>
@@ -219,7 +195,6 @@
                     <div class="sec-heading text-center">
                         <h2>About Satya </h2>
                         <h6>You are beautiful, we just make you realize it! &trade;</h6>
-                        <!-- <span style="color:black; font-weight: 600; font-size: 20px; padding-bottom: 25px;" >Skin Clinic in Delhi</span> -->
                     </div>
                 </div>
                 <!--end heading-->
@@ -238,65 +213,6 @@
 
         </div>
     </section>
-
-    <!-- <section id="servicesec">
-        <div class="container-fluid">
-            <h2>Concerns We Address at AAYNA</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/ageing.png" class="img-fluid">
-                        <h6>Ageing</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/Excessive-hair-growth.webp" class="img-fluid">
-                        <h6>Excessive hair growth</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/Eyes-Lips.webp" class="img-fluid">
-                        <h6>Eyes & Lips Concerns</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/hairloss.webp" class="img-fluid">
-                        <h6>Hair loss</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/Scanty-Brown.webp" class="img-fluid">
-                        <h6>Scanty brows and face feature correction</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/Skinissue.webp" class="img-fluid">
-                        <h6>Skin Issues</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/weightloss.webp" class="img-fluid">
-                        <h6>Weight Loss</h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-3">
-                    <div class="servicesec1 servicesec2">
-                        <img src="assets/images/hyperpigmentation.png" class="img-fluid">
-                        <h6>Hyperpigmentation</h6>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section> -->
-
 
     <section id="about-area" data-scroll-index="1">
         <div class="container">
@@ -324,15 +240,10 @@
                         <h2 class="mt-5"> <strong> Dr Shaiil Kumar Gupta</strong><span>
                                 <h6>MD Dermatologist (Founder SATYA)</h6>
                             </span></h2>
-                        <!-- <h2>About <strong> Dr. Shaiil Gupta & <br> Dr. Ruchi Agarwal</strong></h2> -->
-                        <!-- <h6>Dermatologist (Skin Specialist Doctor) in India</h6> -->
 
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, deleniti, ratione tempore
                             explicabo veniam odio omnis quidem nobis, velit repellat architecto quia praesentium eius!
                             Blanditiis commodi.</p>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum possimus, in ab quod
-                            cumque at voluptatum blanditiis inventore laudantium ex id omnis? A laborum similique
-                            cupiditate eaque repudiandae provident quas cum consequuntur, maxime rerum?</p> -->
 
 
                     </div>
@@ -470,7 +381,7 @@
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-5">
-                            <p>I just LOVE the women at AAYNA. I live in New York and make a point to see them every
+                            <p>I just LOVE the women at . I live in New York and make a point to see them every
                                 time
                                 I’m in Delhi for work. They have wonderful customer service and take great care of me.
                                 Had
@@ -496,7 +407,7 @@
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-5">
-                            <p>I just LOVE the women at AAYNA. I live in New York and make a point to see them every
+                            <p>I just LOVE the women at . I live in New York and make a point to see them every
                                 time
                                 I’m in Delhi for work. They have wonderful customer service and take great care of me.
                                 Had
@@ -522,7 +433,7 @@
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-5">
-                            <p>I just LOVE the women at AAYNA. I live in New York and make a point to see them every
+                            <p>I just LOVE the women at . I live in New York and make a point to see them every
                                 time
                                 I’m in Delhi for work. They have wonderful customer service and take great care of me.
                                 Had
@@ -548,7 +459,7 @@
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-5">
-                            <p>I just LOVE the women at AAYNA. I live in New York and make a point to see them every
+                            <p>I just LOVE the women at . I live in New York and make a point to see them every
                                 time
                                 I’m in Delhi for work. They have wonderful customer service and take great care of me.
                                 Had
@@ -574,7 +485,7 @@
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-5">
-                            <p>I just LOVE the women at AAYNA. I live in New York and make a point to see them every
+                            <p>I just LOVE the women at . I live in New York and make a point to see them every
                                 time
                                 I’m in Delhi for work. They have wonderful customer service and take great care of me.
                                 Had
@@ -630,8 +541,6 @@
 
             </div>
     </section>
-
-
 
     <section id="faq-area" data-scroll-index="5">
         <div class="container">
@@ -1093,11 +1002,7 @@
                 <!--start contact form-->
                 <div class="col-lg-6 mt-3">
                     <div class="contact-form">
-                        <form method="post"
-                            action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                            <input name="website_link" type="text" class="website_link" style="display:none;">
-                            <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                style="display:none;">
+                        <form>
 
                             <div class="form-group">
                                 <label for="name">Name*</label>
@@ -1109,7 +1014,6 @@
                             <div class="form-group">
                                 <label for="phone">Phone*</label>
                                 <input type="text" class="form-control" id="phone" name="phone"
-                                    onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
                                     placeholder="Enter Phone*" required="required"
                                     data-error="valid phone is required.">
                                 <div class="help-block with-errors"></div>
@@ -1119,20 +1023,14 @@
                                 <label for="location">Choose a Location:</label>
                                 <select id="location" name="location">
                                     <option value="location">Select Location</option>
-                                    <option value="mehrauli">Mehrauli, New Delhi</option>
-                                    <option value="khan">Khan Market, New Delhi</option>
+                                    <option value="mehrauli">New Delhi</option>
+                                    <option value="khan">New Delhi</option>
 
                                 </select>
                             </div>
 
-                            <!--Captch Start-->
-                            <input name="cptcha_str" type="text" id="cptcha_str_2" style="display:none;">
-                            <canvas class='canvas' id="canvas_2"></canvas>
-                            <h6>Type The Code:</h6>
-                            <input name="captchacode" id="code_2" class="form-control">
-                            <button type="submit" id="valid_2" name="submit" value="Send">Request a Callback</button>
+                            <button type="submit" id="valid_2" name="submit" value="Send">Submit</button>
                             <!--Captch End-->
-                            <div class="messages"></div>
                         </form>
                     </div>
                 </div>
@@ -1149,39 +1047,11 @@
         </div>
     </section>
     <!--end contact area-->
-    <!--start footer-->
 
+    <!--start footer-->
     <section id="address">
         <div class="container-fluid my-5">
             <div class="row">
-                <!-- <div class="col-md-3 mt-3">
-                    <div class="address1">
-                        <h4>AAYNA, Mehrauli</h4>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Ambawatta One, H5/5, First Floor, Kalka
-                            Das Marg, Mehrauli, New Delhi – 110030</p>
-                        <a href="tel:07042297304"><i class="fa fa-phone" aria-hidden="true"></i> +91 704 229 7304</a>
-
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14021.734009837723!2d77.184845!3d28.526687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1e11f9109be9%3A0x33dedba909338ec6!2sAAYNA%20Clinic%20-%20Mehrauli%20-%20Skin%20%26%20Hair%20Care!5e0!3m2!1sen!2sin!4v1683627689158!5m2!1sen!2sin"
-                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="address1">
-                        <h4>AAYNA, Khan Market</h4>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> 47, Middle Lane, Khan Market, Rabindra
-                            Nagar, Khan Market, New Delhi – 110003</p>
-                        <a href="tel:09870396667"><i class="fa fa-phone" aria-hidden="true"></i> +91 987 039 6667</a>
-
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14011.872771693968!2d77.227261!3d28.600731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2e830b10c7b%3A0x2657115f7f26083a!2sAAYNA%20Clinic%20-%20Khan%20Market-%20Skin%20%26%20Hair%20Care!5e0!3m2!1sen!2sin!4v1683628010895!5m2!1sen!2sin"
-                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                </div> -->
                 <div class="col-md-4 text-center">
                     <div><img src="assets/images/Satya-Final-logo-Bamboo.png" width="250" alt=""></div>
                 </div>
@@ -1190,10 +1060,8 @@
                         <h4>Pitampura</h4>
                         <p><i class="fa fa-map-marker" aria-hidden="true"></i>ED 38 /A Pitampura, Near Pitampura, <br>
                             Madhuban Chowk, <br>Delhi, 110034, India</p>
-                        <!-- <a href="tel:08575006060"><i class="fa fa-phone" aria-hidden="true"></i> +91 857 500 6060</a> -->
-
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13694.898160178851!2d75.822815!3d30.894366000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a836612dfafa3%3A0x5c810345dd63a322!2sAAYNA%20Clinic%20-%20Ludhiana%20-%20Skin%20%26%20Hair%20Care!5e0!3m2!1sen!2sin!4v1683628063880!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.523207320844!2d77.12940587533832!3d28.703905975625865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03c509a719b7%3A0xb718dea543f71f6f!2sSatya%20Skin%20%26%20Hair%20Solutions!5e0!3m2!1sen!2sin!4v1707304550275!5m2!1sen!2sin"
                             width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -1204,10 +1072,9 @@
                         <h4>Gurugram</h4>
                         <p><i class="fa fa-map-marker" aria-hidden="true"></i>4301, DLF phase 4,<br> Near Galleria,<br>
                             Gurugram-122002</p>
-                        <!-- <a href="tel:09810927946"><i class="fa fa-phone" aria-hidden="true"></i> +91 981 092 7946</a> -->
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.578631892852!2d77.0774228150787!3d28.46211588248541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d194a195773e5%3A0xc4c8933d781a5bc3!2sAAYNA%20Clinic%20-%20Gurugram!5e0!3m2!1sen!2sin!4v1684321896362!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224223.3597896667!2d76.94244797185434!3d28.58507360917557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d198f5f49c53b%3A0xe0b42c1f0611df3a!2sSatya%20Skin%20and%20Hair%20Transplant%20(Best%20Hair%20Transplant%20Clinic%20in%20Gurgaon%20)!5e0!3m2!1sen!2sin!4v1707304594470!5m2!1sen!2sin"
                             width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -1217,657 +1084,16 @@
         </div>
     </section>
 
-    <!-- <div class="copyright bg-gray text-center">
-        <p>Copyrights Reserved, AAYNA Clinic</p>
-    </div> -->
-
-
-    <!-- <a class="float_whats" href="https://api.whatsapp.com/send/?phone=+917428058802&amp;text=Hi,"><i
-            class="fa fa-whatsapp" aria-hidden="true"></i></a> -->
-
-
-    <!-- Anti Ageing  popup modal -->
-    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Anti Ageing Treatments</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="anti-aging1">
-                        <ul>
-                            <li>Fillers</li>
-                            <li>Ultherapy</li>
-                            <li>Thermage</li>
-                            <li>Face Exilis</li>
-                        </ul>
-                    </div>
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Laser Hair Reduction popup modal -->
-
-    <!-- <div class="modal fade" id="examplelaserhairreduction" tabindex="-1" role="dialog"
-        aria-labelledby="examplelaserhairreductionLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Laser Hair Reduction</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- Semi-permanent Makeup -->
-
-    <!-- <div class="modal fade" id="examplesemimakeup" tabindex="-1" role="dialog" aria-labelledby="examplesemimakeup"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Semi-permanent Makeup</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="anti-aging1">
-                        <ul>
-                            <li>Eyebrows</li>
-                            <li>Lips</li>
-                            <li>Eyeliners</li>
-                        </ul>
-                    </div>
-
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- weight loss -->
-
-    <!-- <div class="modal fade" id="exampleweightloss" tabindex="-1" role="dialog" aria-labelledby="exampleweightloss"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Weight Loss</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="anti-aging1">
-                        <ul>
-                            <li>Emscult</li>
-                            <li>Emtone</li>
-                            <li>Exilis Elite</li>
-                        </ul>
-                    </div>
-
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- hair loss -->
-
-    <!-- <div class="modal fade" id="examplehairloss" tabindex="-1" role="dialog" aria-labelledby="examplehairloss"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Hair Loss/ Hair thinning</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="anti-aging1">
-                        <ul>
-                            <li>AAYNA Hair Regrow</li>
-                        </ul>
-                    </div>
-
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- Hyperpigmentation -->
-
-    <!-- <div class="modal fade" id="exampleHyperpigmentation" tabindex="-1" role="dialog"
-        aria-labelledby="exampleHyperpigmentation" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Hyperpigmentation</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- acnescar -->
-
-    <!-- <div class="modal fade" id="exampleacnescar" tabindex="-1" role="dialog" aria-labelledby="exampleacnescar"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Acne & Acne Scar</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="caption-img d-table text-center">
-                        <div class="d-table-cell align-middle">
-                            <div class="ban_form ban_formodal">
-                                <h3>Make an Appointment</h3>
-                                <form method="post"
-                                    action="https://www.aaynaclinic.com/lp/best-skin-specialist-doctor-india/form-submit">
-                                    <input name="website_link" type="text" class="website_link" style="display:none;">
-                                    <input name="email" type="text" class="email" value="Shwetabishnoi@aaynaclinic.com"
-                                        style="display:none;">
-                                    <input type="text" name="name" placeholder="Name" required="">
-                                    <input type="tel" name="phone" placeholder="Phone Number"
-                                        onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10"
-                                        required="">
-                                    <select id="location" name="location">
-                                        <option value="location">Select Location</option>
-                                        <option value="mehrauli">Mehrauli, New Delhi</option>
-                                        <option value="khan">Khan Market, New Delhi</option>
-                                        <option value="ludhiana">Ludhiana, Punjab</option>
-                                        <option value="gurugram">Gurugram, Haryana</option>
-
-
-                                    </select>
-                                    <div id="rcaptcha" class="g-recaptcha"
-                                        data-sitekey="6LdyiC0mAAAAAOC_1o4ipNhuJSFWXrrXSAXF5WfT"
-                                        data-callback="onFepCaptchaSubmit">
-                                    </div>
-                                    <button type="submit" name="submit">Request a Callback</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!--end footer-->
-
-    <!-- <div class="form-popup" id="myForm">
-        <div class="form-container">
-            <div class="popupde3">
-                <p>Continue with Phone</p><a href="javascript:void();" class="cancel21" onclick="closeForm()">x</a>
-            </div>
-            <label for="psw" class="psw"><b>Enter your 10 digit mobile number to initiate call</b></label>
-            <div class="col-sm-12 col-xs-12">
-                <p id="please_wait" style="display:none;">please wait...</p>
-            </div>
-            <div class="vdf34e">
-                <span>+91</span><input type="tel" name="phone" id="call_phone" placeholder="enter 10 digit number"
-                    onkeypress="javascript:return isNumber(event)" minlength="10" maxlength="10" required="">
-            </div>
-            <a class="btn phonepopupinitiate" style="display:none;" id="call_now_btn">Call Now</a>
-        </div>
-    </div> -->
-
 
     <!--jQuery js-->
     <script src="assets/js/jquery.min.js"></script>
-    <!--proper js-->
-    <script src="assets/js/popper.min.js"></script>
     <!--bootstrap js-->
     <script src="assets/js/bootstrap.min.js"></script>
-    <!--magnic popup js-->
-    <!-- <script src="assets/js/magnific-popup.min.js"></script> -->
     <!--owl carousel js-->
     <script src="assets/js/owl.carousel.min.js"></script>
-    <!--scrollIt js-->
-    <script src="assets/js/scrollIt.min.js"></script>
-    <!--contact js-->
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/js/jquery.animateNumber.min.js"></script>
-    <!--validator js-->
-    <script src="assets/js/validator.min.js"></script>
     <!--main js-->
-    <script src="assets/js/custom7c34.js?v=3488"></script>
+    <script src="assets/js/custom.js"></script>
 
-
-    <!-- Capcha Script Start -->
-    <script type="text/javascript" src="assets/js/jquery-captcha.js"></script>
-    <script>
-
-        function isNumber(evt) {
-            evt = (evt) ? evt : window.event;
-            var charCode = (evt.which) ? evt.which : evt.keyCode;
-            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-                return false;
-            }
-            return true;
-        }
-
-
-        const captcha_1 = new Captcha($('#canvas_1'), { length: 4 });
-        const captcha_2 = new CaptchaSecond($('#canvas_2'), { length: 4 });
-
-        // api
-        //captcha.refresh();
-        //captcha.getCode();
-        //captcha.valid("");
-
-        $('#valid_1').on('click', function (event) {
-            // event.preventDefault();
-            const ans = captcha_1.valid($('input[id="code_1"]').val());
-            // alert(ans);
-            if (ans == true) {
-                $('#cptcha_str_1').val(captcha_1.getCode());
-                // alert(captcha_1.getCode());
-            } else {
-                alert('Invalid Captcha');
-                captcha_1.refresh();
-                return false;
-            }
-        })
-        $('#valid_2').on('click', function (event) {
-            // event.preventDefault();
-            const ans = captcha_2.valid($('input[id="code_2"]').val());
-            // alert(ans);
-            if (ans == true) {
-                $('#cptcha_str_2').val(captcha_2.getCode());
-                // alert(captcha_2.getCode());
-            } else {
-                alert('Invalid Captcha');
-                captcha_2.refresh();
-                return false;
-            }
-        })
-
-    </script>
-    <!-- Capcha Script End -->
-
-    <script>
-        function openForm() {
-            document.getElementById("myForm").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-        }
-        function openwhatsappForm() {
-            document.getElementById("whatsappForm").style.display = "block";
-        }
-
-        function closewhatsappFormForm() {
-            document.getElementById("whatsappForm").style.display = "none";
-        }
-
-        function isNumber(evt) {
-            evt = (evt) ? evt : window.event;
-            var charCode = (evt.which) ? evt.which : evt.keyCode;
-            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-                return false;
-            }
-            return true;
-        }
-
-        SIZE = 10;
-        $(document).ready(function () {
-            $("#call_phone").bind('keyup', function () {
-                console.log($("#call_phone").val());
-                if ($("#call_phone").val().length == SIZE) {
-                    $("#call_now_btn").show();
-                }
-                else {
-                    $("#call_now_btn").hide();
-                }
-            });
-
-            $("#chat_phone").bind('keyup', function () {
-                console.log($("#chat_phone").val());
-                if ($("#chat_phone").val().length == SIZE) {
-                    $("#chat_now_btn").show();
-                }
-                else {
-                    $("#chat_now_btn").hide();
-                }
-            });
-        });
-
-        $('#call_now_btn').on('click', function () {
-            var call_phone = $("#call_phone").val();
-            $('#call_phone').val('');
-            $("#call_now_btn").hide();
-            if (ismobile(call_phone)) {
-                $('#please_wait').show();
-                const data = {
-                    enquirytype: $('#enquirytype').val(),
-                    source: $('#source').val() + ' - lp_call_popup',
-                    adgroupid: $('#adgroupid').val(),
-                    campaignid: $('#campaignid').val(),
-                    keyword: $('#keyword').val(),
-                    matchtype: $('#matchtype').val(),
-                    location1: $('#location1').val(),
-                    device: $('#device').val(),
-                    creative: $('#creative').val(),
-                    gclid: $('#gclid').val(),
-                    phone: call_phone,
-                    pageurl: "https://aaynaclinic.com/lp/best-skin-specialist-doctor/"
-                }
-
-                $.ajax({
-                    type: 'POST',
-                    url: 'call-pop-submit.php',
-                    dataType: 'json',
-                    data: data,
-                    success: function (response) {
-                        console.log(response);
-                        $('#call_phone').empty().val('');
-                        $('#please_wait').hide();
-                        window.location.assign('tel:07042297304');
-                    }
-                });
-                //$("#hidden_call_btn").trigger('click');
-            }
-        });
-
-
-        $('#chat_now_btn').on('click', function () {
-            var call_phone = $("#chat_phone").val();
-            $('#chat_phone').val('');
-            $("#chat_now_btn").hide();
-            if (ismobile(call_phone)) {
-                $('#chat_please_wait').show();
-                const data = {
-                    enquirytype: $('#enquirytype').val(),
-                    source: $('#source').val() + ' - lp_whatsapp_popup',
-                    adgroupid: $('#adgroupid').val(),
-                    campaignid: $('#campaignid').val(),
-                    keyword: $('#keyword').val(),
-                    matchtype: $('#matchtype').val(),
-                    location1: $('#location1').val(),
-                    device: $('#device').val(),
-                    creative: $('#creative').val(),
-                    gclid: $('#gclid').val(),
-                    phone: call_phone,
-                    pageurl: "https://aaynaclinic.com/lp/best-skin-specialist-doctor/"
-                }
-
-                $.ajax({
-                    type: 'POST',
-                    url: 'call-pop-submit.php',
-                    dataType: 'json',
-                    data: data,
-                    success: function (response) {
-                        console.log(response);
-                        $('#chat_phone').empty().val('');
-                        $('#chat_please_wait').hide();
-                        // window.location.assign('tel:+919650157539');
-                        window.location.href = 'http://api.whatsapp.com/send?phone=917428058802&amp;text=Hi,I%20have%20query,';
-                    }
-                });
-                //$("#hidden_call_btn").trigger('click');
-            }
-        });
-        function ismobile(mobNum) {
-            var filter = /^\d*(?:\.\d{1,2})?$/;
-
-            if (filter.test(mobNum)) {
-                if (mobNum.length == 10) {
-                    return true;
-                } else {
-                    alert('Please put 10 digit mobile number');
-                    return false;
-                }
-            }
-            else {
-                alert('Not a valid number');
-                return false;
-            }
-        }
-
-    </script>
-
-    <div class="col-md-2 mt-2">
-        <input type="hidden" id="enquirytype" name="enquirytype" value="Aayna landing_page" />
-        <input type="hidden" id="source" name="source" value="" />
-        <input type="hidden" id="adgroupid" name="adgroupid" value="" />
-        <input type="hidden" id="campaignid" name="campaignid" value="" />
-        <input type="hidden" id="keyword" name="keyword" value="" />
-        <input type="hidden" id="matchtype" name="matchtype" value="" />
-        <input type="hidden" id="location1" name="location1" value="" />
-        <input type="hidden" id="device" name="device" value="" />
-        <input type="hidden" id="creative" name="creative" value="" />
-        <input type="hidden" id="gclid" name="gclid" value="" />
-        <input type="hidden" id="pageurl" name="pageurl"
-            value="https://aaynaclinic.com/lp/best-skin-specialist-doctor/" />
-
-        <script>
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-            document.getElementById('source').value = urlParams.get('source');
-            document.getElementById('adgroupid').value = urlParams.get('adgroupid');
-            document.getElementById('campaignid').value = urlParams.get('campaignid');
-            document.getElementById('keyword').value = urlParams.get('keyword');
-            document.getElementById('matchtype').value = urlParams.get('matchtype');
-            document.getElementById('location1').value = urlParams.get('location');
-            document.getElementById('device').value = urlParams.get('device');
-            document.getElementById('creative').value = urlParams.get('creative');
-            document.getElementById('gclid').value = urlParams.get('gclid');
-        </script>
-    </div>
-    <script async src="assets/js/script892c.js"></script>
 
 </body>
 
