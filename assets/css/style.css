@@ -1398,6 +1398,15 @@ p {
 }
 
 @media (max-width: 480px) {
+  .testimonial1 {
+    flex-direction: column !important;
+  }
+  iframe {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
   .card-header button.btn.btn-link {
     font-size: 20px;
     font-weight: 600;
@@ -1800,7 +1809,7 @@ p {
 .sec-heading h2 {
   font-weight: 700;
   text-transform: capitalize;
-  color: #36312e;
+  color: #fff;
 }
 #feat-area {
   padding: 45px 0 45px;
@@ -1868,9 +1877,12 @@ p {
 }
 
 .sec-heading h6 {
-  color: #c78853;
+  color: #fff;
   font-weight: 600;
   letter-spacing: 2px;
+}
+.sec-heading p {
+  color: #fff;
 }
 #faq-area {
   margin-top: 50px;
@@ -2303,4 +2315,11 @@ label.psw {
 /* tech */
 #technology p {
   font-size: 20px;
+}
+
+#accredation {
+  background-color: #fff8f1;
+}
+
+@media screen {
 }
