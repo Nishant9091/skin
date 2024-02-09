@@ -10,7 +10,7 @@
             loop: true,
             navText: ['<i class="icofont-simple-left"></i>', '<i class="icofont-simple-right"></i>'],
             nav: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 450,
             margin: 20,
@@ -37,7 +37,7 @@
             loop: true,
             navText: ['<i class="icofont-simple-left"></i>', '<i class="icofont-simple-right"></i>'],
             nav: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 450,
             margin: 20,
@@ -46,16 +46,16 @@
                     items: 1
                 },
                 768: {
-                    items: 2
+                    items: 1
                 },
                 991: {
-                    items: 3
+                    items: 1
                 },
                 1200: {
-                    items: 3
+                    items: 1
                 },
                 1920: {
-                    items: 3
+                    items: 1
                 }
             }
         });
@@ -64,7 +64,7 @@
             loop: true,
             navText: ['<i class="icofont-simple-left"></i>', '<i class="icofont-simple-right"></i>'],
             nav: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 450,
             margin: 20,
