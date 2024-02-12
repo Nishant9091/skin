@@ -2315,6 +2315,7 @@ label.psw {
 /* tech */
 #technology p {
   font-size: 20px;
+  line-height: 2;
 }
 
 #accredation {
@@ -2322,4 +2323,96 @@ label.psw {
 }
 
 @media screen {
+}
+
+#servicesec ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
+/*  */
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content-text {
+  color: #fff;
+  text-align: start;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  color: #fff;
+  text-align: start;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+#servicesec a {
+  position: relative;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #323232;
+  top: 0.5rem;
+}
+
+#servicesec a:hover:after {
+  content: " It is a virtually painless, highly controlled, no downtime q switched Nd:Yag laser developed by the world leader in aesthetic lasers, Alma.";
+  position: absolute;
+  left: 0;
+  top: 2em;
+  color: #323232;
+  border: 1px solid #36312e;
+  background: #fff;
+  border-radius: 15px;
+  width: 200%;
+  text-align: center;
+  padding: 3px 4px;
 }
