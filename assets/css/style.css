@@ -1398,6 +1398,9 @@ p {
 }
 
 @media (max-width: 480px) {
+  .logo img {
+    width: auto;
+  }
   .testimonial1 {
     flex-direction: column !important;
   }
@@ -2427,4 +2430,12 @@ label.psw {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.accordion-button:focus,
+.btn:focus {
+  box-shadow: none;
+}
+.accordion-button:focus {
+  background: none;
+  color: #36312e;
 }

@@ -1,6 +1,19 @@
 (function ($) {
     "use strict";
 
+
+    /*---------------------------------------------------
+        sticky header
+    ----------------------------------------------------*/
+    $(window).on('scroll', function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 700) {
+            $(".mainmenu").removeClass("sticky");
+        } else {
+            $(".mainmenu").addClass("sticky");
+        }
+    });
+
     $(document).ready(function () {
 
         /*---------------------------------------------------
@@ -60,26 +73,9 @@
             }
         });
 
-
-        /*---------------------------------------------------
-            scrollIt plugin activation
-        ----------------------------------------------------*/
-        $.scrollIt();
-
-
     });
 
-    /*---------------------------------------------------
-        sticky header
-    ----------------------------------------------------*/
-    $(window).on('scroll', function () {
-        var scroll = $(window).scrollTop();
-        if (scroll < 700) {
-            $(".mainmenu").removeClass("sticky");
-        } else {
-            $(".mainmenu").addClass("sticky");
-        }
-    });
+
 
 
 
