@@ -210,10 +210,10 @@ p {
 
 #hero-area {
   /* background-color: #36312e; */
-  background-image: url("../images/skin\ banner.png");
+  background-image: url("../images/BANNER.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 .caption h5 {
