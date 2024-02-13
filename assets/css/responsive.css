@@ -577,7 +577,7 @@
 
 @media only screen and (min-width: 360px) and (max-width: 479px) {
     #servicesec {background-position: center;}
-    .services1img img {height: 180px;}
+    /* .services1img img {height: 180px;} */
     .mainmenu {height: 100px;}
     .mainmenu.sticky {height: 120px;}
     .header-cont-info {display: none;}
@@ -890,7 +890,7 @@
     }
 
     #feat-area {
-        padding: 80px 0 30px;
+        /* padding: 80px 0 30px; */
     }
 
     #video-area {
@@ -1027,7 +1027,7 @@
     }
 
     #hero-area {
-        padding: 95px 0 115px;
+        /* padding: 95px 0 115px; */
     }
 
     .caption p {
@@ -1050,7 +1050,7 @@
     }
 
     .caption-img {
-        margin: 40px 0 0;
+        /* margin: 40px 0 0; */
     }
 
     .caption-img img {
@@ -1286,11 +1286,11 @@
     }
 
     #about-area {
-        padding: 80px 0;
+        padding: 40px 0 0 0;
     }
 
     #feat-area {
-        padding: 80px 0 30px;
+        /* padding: 80px 0 30px; */
     }
 
     #video-area {

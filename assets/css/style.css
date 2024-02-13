@@ -210,7 +210,7 @@ p {
 
 #hero-area {
   /* background-color: #36312e; */
-  background-image: url("../images/BANNER.png");
+  background-image: url("../images/IMG-20240124-WA0005.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -1398,6 +1398,9 @@ p {
 }
 
 @media (max-width: 480px) {
+  #hero-area{
+    background-position: right;
+  }
   .logo img {
     width: auto;
   }
@@ -2268,6 +2271,9 @@ label.psw {
 }
 
 @media (max-width: 767px) {
+  #feat-area {
+    padding: 0;
+  }
   .form-popup {
     z-index: 999999;
     right: 20px;
