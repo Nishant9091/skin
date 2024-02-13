@@ -578,7 +578,7 @@
 @media only screen and (min-width: 360px) and (max-width: 479px) {
     #servicesec {background-position: center;}
     /* .services1img img {height: 180px;} */
-    .mainmenu {height: 100px;}
+    .mainmenu {height: 110px;}
     .mainmenu.sticky {height: 120px;}
     .header-cont-info {display: none;}
     #testimonialsection { background: linear-gradient( 144deg , black, transparent), url(../images/clinicgallary7.html) no-repeat; background-size: cover; padding: 50px 0px; margin-top: 50px; }
