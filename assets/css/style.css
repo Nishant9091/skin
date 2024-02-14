@@ -1398,6 +1398,9 @@ p {
 }
 
 @media (max-width: 480px) {
+  .product-carousel .owl-nav{
+    margin: 0;
+  }
   .address1 iframe{
     height: revert-layer;
   }
@@ -1905,7 +1908,7 @@ p {
   color: #fff;
 }
 #faq-area {
-  margin-top: 50px;
+  padding: 50px 0px;
 }
 #faq-area h2 {
   margin-bottom: 30px;
@@ -2441,10 +2444,10 @@ label.psw {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-/* 
+
 .accordion-button::after {
   content: none;
-} */
+}
 .accordion-item {
   display: flex;
   justify-content: center;

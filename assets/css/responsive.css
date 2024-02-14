@@ -576,6 +576,9 @@
 ----------------------------------------------------------------*/
 
 @media only screen and (min-width: 360px) and (max-width: 479px) {
+    .content li{
+        font-size: 14px;
+    }
     #servicesec {background-position: center;}
     /* .services1img img {height: 180px;} */
     .mainmenu {height: 110px;}
@@ -593,7 +596,7 @@
     }
 
     h4 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 34px;
     }
 
